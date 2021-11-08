@@ -1,0 +1,12 @@
+#hlavni-nadpis{
+    color: #ffa500;
+    font: 30px, bold;
+}
+.nadpis {
+    color: #00FF00;
+    font: 25px, 600;
+}
+.text{
+    color: #0000ff;
+    font: 16px, normal;
+}
