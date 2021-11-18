@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: cornflowerblue;
+    border: 3px black;
+  }
+
+  .flex-items{
+      display: block;
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: auto;
+      align-self: center;
+      order: 0;
+
+      padding: 20px;
+      border: 10px dotted darkblue;
+      margin: 30px;
+  }
+
+   p::first-letter{
+    font-size: 300%;
+    color:chartreuse;
+  }
+
+  .flex-items:nth-child(1) {
+    background-color: lightseagreen;
+  }
+  
+  .flex-items:nth-child(2) {
+    background-color: rgb(20, 114, 109);
+  }
