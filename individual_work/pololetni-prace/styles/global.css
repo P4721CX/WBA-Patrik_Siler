@@ -1,0 +1,198 @@
+/*COLORS USED*/
+/* Colour Palette
+https://lospec.com/palette-list/eulbink*/
+/*BASIC EDITS*/
+html, body {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+/*----------*/
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: serif;
+  color: #0098db;
+}
+
+p, a {
+  font-size: 1.2rem;
+  font-family: "Fira Sans", serif;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: #1c122c;
+}
+
+.nav p:hover {
+  text-decoration: underline;
+  border-color: white;
+}
+
+/*CONTENT*/
+section {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+/*MEDIA*/
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p, a {
+    font-size: 0.8rem;
+  }
+  footer p {
+    font-size: 0.4rem;
+  }
+  /*NAV*/
+  header {
+    -webkit-box-shadow: 0px 0px 15px #1e579c;
+            box-shadow: 0px 0px 15px #1e579c;
+    width: 100vw;
+    height: 7vh;
+  }
+  .nav img {
+    -webkit-box-shadow: 0px 0px 15px #1e579c;
+            box-shadow: 0px 0px 15px #1e579c;
+    height: 110%;
+    position: relative;
+    top: 13px;
+  }
+  .nav p {
+    text-shadow: 0px 4px #252446;
+    border: 3px dotted #0ce6f2;
+    padding: .1rem .5rem;
+    margin: 0rem .1rem;
+  }
+  /*HOME*/
+  #home {
+    width: 100vw;
+    height: 93vh;
+    position: relative;
+    top: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #home-content {
+    width: 90%;
+    height: 70%;
+    margin: 7% 7%;
+    position: relative;
+    bottom: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  #home-content video {
+    width: auto;
+    height: 40%;
+    border: 10px inset #ffffff25;
+    position: relative;
+    top: 25%;
+  }
+  #title {
+    margin-left: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    bottom: 45%;
+  }
+  /*ABOUT*/
+  #about-content {
+    width: 82%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about-content h2 {
+    margin: 0%;
+    margin-bottom: 5%;
+    padding: 0%;
+  }
+  #about-content p {
+    margin-right: 0%;
+  }
+  /*WORK*/
+  .work-item {
+    margin: 0%;
+    display: block;
+  }
+  #first-par, #first-par img, #first-par p,
+  #second-par img, #second-par p,
+  #third-par img, #third-par p,
+  #fourth-par img, #fourth-par p {
+    margin: 0%;
+  }
+}
+/*# sourceMappingURL=global.css.map */
