@@ -1,0 +1,61 @@
+/*HOMEPAGE*/
+@include main(13%, 10%, center);
+@include buttons;
+
+#welcome-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 3% 3% 3%;
+    background-color: $box-color;
+    > h1{
+        font-size: 1.25rem;
+        margin-bottom: 6%;
+        color: $secondary-text-color;
+    }
+    > p{
+        font-size: 0.81rem;
+        text-align: justify;
+        color: $secondary-text-color;
+    }
+    > .button-seco{
+        margin-top: 7%;
+    }
+}
+
+#all-places-to-go{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    > h2{
+        font-size: 0.68rem;
+    }
+    .place-to-go{
+        display: flex;
+        flex-direction: row;    
+        justify-content: space-between;
+        align-items: center;
+        >img{
+            box-shadow: 0px 4px 6px $box-shadow-color;
+        }
+        .place-to-go-text{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-left: 6%;
+            > h3{
+                font-size: 0.75rem;
+            }
+            > p{
+                font-size: 0.62rem;
+                text-align: justify;
+            }
+        }
+    }
+    .place-to-go, > .button-prim{
+        margin-top: 9%;
+    }
+}

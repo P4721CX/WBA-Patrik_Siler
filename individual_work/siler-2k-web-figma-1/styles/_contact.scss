@@ -1,0 +1,42 @@
+/*CONTACT*/
+@include main(21%, 10%, center);
+@include buttons;
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    > p{
+        font-size: 1.25rem;
+    }
+    #all-input-boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 10% 0%;
+        .input-box{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: $box-color;
+            width: 100%;
+            margin-top: 5%;
+            > p{
+                width: 100%;
+                padding: 2%;
+                font-size: 0.68rem;
+            }
+        }
+        .input-box:first-child{
+            margin-top: 0%;
+        }
+        .input-box:last-child{
+            padding-bottom: 25%;
+        }
+    }
+}

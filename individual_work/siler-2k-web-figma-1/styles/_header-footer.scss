@@ -1,0 +1,36 @@
+/*HEADER-FOOTER*/
+header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 10vh;
+    background-color: $header-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+    img:first-child{        // Logo
+        width: auto;
+        height: 80%; 
+    }
+    img:last-child{         // Menu Button
+        width: auto;
+        height: 40%;
+    }
+}
+
+footer{
+    width: 100vw;
+    height: 14vh;
+    background-color: $header-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6% 15%;
+    > p{
+        font-size: 0.75rem;
+    }
+}

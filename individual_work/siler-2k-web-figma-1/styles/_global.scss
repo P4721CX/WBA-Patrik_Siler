@@ -1,0 +1,26 @@
+/*GLOBAL*/
+$bg-color: #E5E5E5;
+$header-color: #CBC1B1;
+$box-color: #7C7474;
+
+$primary-text-color: #000000;
+$secondary-text-color: #F8F7EC;
+
+$button-seco-color: #f8f7ec4D;
+$button-shadow-color: #00000060;
+$box-shadow-color: #0000004b;
+
+h1, h2, h3, p{
+    font-family: 'Lato', sans-serif;
+    color: $primary-text-color;
+}
+body{
+    background-color: $bg-color;
+    height: 100%;
+    width: 100%;
+}
+img{
+    display: block;
+}
+
+  
