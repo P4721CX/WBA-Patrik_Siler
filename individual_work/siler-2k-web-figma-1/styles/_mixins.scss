@@ -1,6 +1,9 @@
 @mixin main($space-between, $space-around, $horizontal-align){
     .main{
-        height: 100%;
+        width: 100%;
+        min-height: 76vh;
+        height: max-content;
+
         display: flex;
         flex-direction: column;
         align-items: $horizontal-align;
