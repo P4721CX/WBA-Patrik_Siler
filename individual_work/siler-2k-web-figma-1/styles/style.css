@@ -71,7 +71,7 @@ footer > p {
   font-size: 0.75rem;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   header {
     height: 14vh;
   }
@@ -257,7 +257,7 @@ footer > p {
   margin-top: 9%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   header {
     position: absolute;
   }
