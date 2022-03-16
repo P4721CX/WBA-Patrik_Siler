@@ -1,15 +1,26 @@
 @media only screen and (min-width: 1024px){
-    @include main(23%, 14%, center);
+    @include main(19%, 14%, center);
 
     #all-info{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr 1fr;
+        row-gap: 55%;
+        column-gap: 2%;
+        height: fit-content;
         .info{
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            margin: 0%;
+            img{
+                width: 32%;
+                margin-right: 3%;
+            }
+            h3{
+                font-size: 1.125rem;
+            }
         }
     }
 }

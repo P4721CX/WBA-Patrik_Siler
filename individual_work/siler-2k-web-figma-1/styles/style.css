@@ -71,6 +71,16 @@ footer > p {
   font-size: 0.75rem;
 }
 
+@media only screen and (min-width: 1024px) {
+  header {
+    height: 14vh;
+  }
+  footer {
+    height: 10vh;
+    padding: 4% 15%;
+  }
+}
+
 /*HOMEPAGE*/
 #main {
   width: 100%;
