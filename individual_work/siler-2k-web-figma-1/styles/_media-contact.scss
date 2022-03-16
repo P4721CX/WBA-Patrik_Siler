@@ -1,6 +1,10 @@
 @media only screen and (min-width: 1280px){
     @include main(21%, 25%, center);
     
+    #nav > p:nth-child(3){
+        background-color: $box-color;
+    }
+
     #contact{
         margin-top: 9%;
         margin-bottom: 10%;

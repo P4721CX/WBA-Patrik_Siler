@@ -1,5 +1,9 @@
 @media only screen and (min-width: 1280px){
     @include main(19%, 14%, center);
+    
+    #nav > p:nth-child(2){
+        background-color: $box-color;
+    }
 
     #all-info{
         display: grid;

@@ -1,7 +1,9 @@
 @media only screen and (min-width: 1280px){
     header{
         position: absolute;
-        // header...
+        #nav > p:nth-child(1){
+            background-color: $box-color;
+        }
     }
     #main{
         padding: 0px 0px;
