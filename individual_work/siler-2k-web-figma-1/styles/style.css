@@ -72,7 +72,7 @@ footer > p {
 }
 
 /*HOMEPAGE*/
-.main {
+#main {
   width: 100%;
   min-height: 76vh;
   height: -webkit-max-content;
@@ -94,11 +94,11 @@ footer > p {
   padding: 0% 10%;
 }
 
-.main > * {
+#main > * {
   margin-top: 13%;
 }
 
-.main > *:last-child {
+#main > *:last-child {
   margin-bottom: 13%;
 }
 
@@ -129,13 +129,17 @@ footer > p {
   height: fit-content;
   padding: 1.5% 10%;
   background-color: #f8f7ec4D;
-  -webkit-box-shadow: 0px 3px 6px #00000060;
-          box-shadow: 0px 3px 6px #00000060;
+  -webkit-box-shadow: 0px 4px 6px #00000060;
+          box-shadow: 0px 4px 6px #00000060;
 }
 
 .button-seco > p {
   color: #000000;
   font-size: 0.68rem;
+}
+
+#home > img {
+  display: none;
 }
 
 #welcome-text {
@@ -241,5 +245,123 @@ footer > p {
 
 #all-places-to-go .place-to-go, #all-places-to-go > .button-prim {
   margin-top: 9%;
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    position: absolute;
+  }
+  #main {
+    padding: 0px 0px;
+  }
+  #main #home {
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #main #home > img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #main #home #welcome-text {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 42%;
+    height: auto;
+    background-color: #7C74744b;
+    padding: 0.5% 3% 3.5% 3%;
+  }
+  #main #home #welcome-text h1 {
+    font-size: 3rem;
+    margin-bottom: 5%;
+  }
+  #main #home #welcome-text p {
+    font-size: 1.5rem;
+  }
+  #main #home #welcome-text .button-seco {
+    background-color: #7C7474;
+    -webkit-box-shadow: 0px 4px 6px #00000060;
+            box-shadow: 0px 4px 6px #00000060;
+  }
+  #main #home #welcome-text .button-seco > p {
+    color: #F8F7EC;
+    font-size: 0.68rem;
+  }
+  #main #all-places-to-go {
+    margin: 6% 0%;
+  }
+  #main #all-places-to-go h2 {
+    font-size: 2.25rem;
+  }
+  #main #all-places-to-go h3 {
+    font-size: 1.5rem;
+    margin: 7% 0%;
+  }
+  #main #all-places-to-go p {
+    font-size: 1.125rem;
+  }
+  #main #all-places-to-go .button-prim {
+    margin-top: 12%;
+  }
+  #main #all-places-to-go #places-to-go-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  #main #all-places-to-go #places-to-go-container .place-to-go {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 24vw;
+  }
+  #main #all-places-to-go #places-to-go-container .place-to-go img {
+    width: 100%;
+  }
+  #main #all-places-to-go #places-to-go-container .place-to-go .place-to-go-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #main #all-places-to-go #places-to-go-container .place-to-go:nth-child(2) {
+    margin-right: 4%;
+    margin-left: 4%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

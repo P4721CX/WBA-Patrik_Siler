@@ -1,0 +1,87 @@
+@media only screen and (min-width: 1024px){
+    header{
+        position: absolute;
+        // header...
+    }
+    #main{
+        padding: 0px 0px;
+        #home{
+            margin-top: 0px;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column-reverse;
+            > img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            #welcome-text{
+                position: absolute;
+                right: 30px;
+                bottom: 30px;
+                width: 42%;
+                height: auto;
+                background-color: $box-color-desktop;
+                padding: 0.5% 3% 3.5% 3%;
+                h1{
+                    font-size: 3rem;
+                    margin-bottom: 5%;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+                .button-seco{
+                    background-color: $box-color;
+                    box-shadow: 0px 4px 6px $button-shadow-color;
+                    > p{
+                        color: $secondary-text-color;
+                        font-size: 0.68rem;
+                    }
+                }
+            }
+        }
+        #all-places-to-go{
+            h2{
+                font-size: 2.25rem;
+            }
+            h3{
+                font-size: 1.5rem;
+                margin: 7% 0%;
+            }
+            p{
+                font-size: 1.125rem;
+            }
+            .button-prim{
+                margin-top: 12%;
+            }
+            margin: 6% 0%;
+            #places-to-go-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-content: flex-start;
+                .place-to-go{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;    
+                    justify-content: center;
+                    width: 24vw;
+                    img{
+                        width: 100%;
+                    }
+                    .place-to-go-text{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-around;
+                    }
+                }
+                .place-to-go:nth-child(2){
+                    margin-right: 4%;
+                    margin-left: 4%;
+                }
+            }
+        }
+    }
+}

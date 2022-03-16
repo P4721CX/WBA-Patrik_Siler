@@ -1,7 +1,11 @@
 /*HOMEPAGE*/
 @include main(13%, 10%, center);
 @include buttons;
-
+#home{
+    > img{
+        display: none;
+    }
+}
 #welcome-text{
     display: flex;
     flex-direction: column;
