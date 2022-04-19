@@ -305,214 +305,115 @@ footer .footer-text-box:first-child {
 }
 
 section {
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: auto;
-}
-
-#content-container {
-  background-color: #f3f5f2;
   width: 80%;
   height: auto;
-  padding: 0% 5%;
-}
-
-#content-container > * {
-  margin-top: 20%;
-  margin-bottom: 25%;
-}
-
-/* [HOME] */
-#home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: flex-start;
+}
+
+.h1-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
-  height: 89vh;
+  margin-top: 8%;
+  margin-bottom: 4%;
 }
 
-#home img {
-  opacity: 0.75;
-}
-
-#home #cta-container {
+.h1-box-container .h1-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: absolute;
-  bottom: 25%;
-  right: 10%;
-}
-
-#home #cta-container #cta-text-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #74A0D2;
-  width: 75%;
-  padding: 10% 7%;
+  width: 50%;
   border-radius: 25px;
-}
-
-#home #cta-container #cta-text-box p {
-  text-align: center;
-  color: #ffffff;
-  font-size: 1.5rem;
-}
-
-#home #cta-container #cta-text-box p:first-child {
-  margin-bottom: 5%;
-  font-size: 2.5rem;
-  font-family: 'Patrick Hand', cursive;
-}
-
-#home #cta-container #services-button-1 {
-  margin-top: 4.5%;
-  padding: 1% 7%;
-  border-radius: 15px;
-  background-color: #ffffff;
-}
-
-#home #cta-container #services-button-1 p {
-  font-size: 2rem;
-  font-family: 'Patrick Hand SC', cursive;
-}
-
-/* [CONTENT] */
-.text-box {
-  border-radius: 15px;
-  padding: 4% 3%;
-  background-color: #74A0D2;
-}
-
-.text-box p {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-
-/* [ABOUT] */
-#about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-#about img {
-  border-radius: 5px;
-  width: 25%;
-}
-
-#about .text-box {
-  margin-left: 8%;
-}
-
-/* [WORK] */
-#work {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#work #h2-box-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  margin-bottom: 10%;
-}
-
-#work #h2-box-container #h2-box-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 60%;
-  border-radius: 15px;
-  padding: 1% 10%;
+  padding: .5% 5%;
   background-color: #2C876F;
 }
 
-#work #h2-box-container h2 {
+.h1-box-container .h1-box h1 {
+  position: relative;
+  bottom: 1px;
   font-size: 3rem;
   color: #ffffff;
   font-family: 'Patrick Hand SC', cursive;
 }
 
-#work #photo-carousel-container {
+.all-services-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background-color: #f3f5f2;
+  padding: 2% 3%;
+  border-radius: 25px;
+}
+
+.all-services-box .service-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 26.5%;
+  padding: 2%;
+  border-radius: 15px;
+  background-color: #B8E6D9;
+}
+
+.all-services-box .service-box .service-image-box {
   background-color: #c7d5c8;
+  padding: 3% 0%;
+  margin-bottom: 9%;
+}
+
+.all-services-box .service-box .service-info-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,41 +424,35 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  height: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 6% 7%;
+  border-radius: 15px;
+  background-color: #74A0D2;
 }
 
-#work #photo-carousel-container #photo-carousel-container-no_flex {
-  width: 80%;
-  height: auto;
+.all-services-box .service-box .service-info-box .service-title-box {
+  margin-bottom: 8%;
 }
 
-#work #photo-carousel-container #photo-carousel-container-no_flex #photo-carousel {
-  width: 100%;
-  height: auto;
+.all-services-box .service-box .service-info-box .service-title-box h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Patrick Hand SC', cursive;
 }
 
-/* [CONTACT] */
-#contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.all-services-box .service-box .service-info-box .service-text-box {
+  margin-bottom: 10%;
 }
 
-#contact #contact-h2 {
+.all-services-box .service-box .service-info-box .service-text-box p {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.all-services-box .service-box .service-info-box .buy-box-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -571,10 +466,10 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  width: 90%;
 }
 
-#contact #contact-h2 #h2-box-2 {
+.all-services-box .service-box .service-info-box .buy-box-container .buy-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -582,53 +477,32 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 60%;
-  margin-bottom: 5%;
-  padding: 1.2% 0%;
-  border-radius: 15px;
-  margin-bottom: 10%;
-  background-color: #2C876F;
-}
-
-#contact #contact-h2 #h2-box-2 .social-media-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 7%;
-  height: auto;
-  aspect-ratio: 1/1;
-  border-radius: 10px;
-  background-color: #B8E6D9;
-  padding: 1%;
+  padding: 2% 5%;
+  border-radius: 6px;
+  width: 60%;
+  background-color: #ffffff;
 }
 
-#contact #contact-h2 #h2-box-2 .social-media-box:first-child {
-  margin-left: 50%;
+.all-services-box .service-box .service-info-box .buy-box-container .buy-box p {
+  font-size: 2rem;
+  font-family: 'Patrick Hand SC', cursive;
 }
 
-#contact .text-box {
-  width: 70%;
-  padding: 4% 8%;
-  padding-bottom: 9%;
+.all-services-box .service-box:first-child {
+  margin-left: 4%;
 }
 
-#contact .text-box p {
-  text-align: center;
+.all-services-box .service-box:last-child {
+  margin-right: 4%;
 }
 
-#contact #services-button-2 {
+#courses {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -636,31 +510,38 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 1% 7%;
-  border-radius: 15px;
-  margin-top: 5%;
-  background-color: #294365;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  border-radius: 25px;
 }
 
-#contact #services-button-2 p {
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 2rem;
-  color: #ffffff;
+#photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 12%;
 }
 
-@media only screen and (max-width: 1280px) {
-  /* [HEADER] */
-  #header-container > #nav-container {
-    background-color: #294365;
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-  }
+#photos .h1-box-container {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-services.css.map */
