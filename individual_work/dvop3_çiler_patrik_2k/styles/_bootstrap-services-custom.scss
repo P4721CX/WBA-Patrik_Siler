@@ -1,0 +1,24 @@
+.courses-carousel-container{
+    #courses-carousel-main{
+        .carousel-control-next{
+            position: absolute;
+            right: -3%;
+        }
+        .carousel-control-prev{
+            position: absolute;
+            left: 1%;
+        }
+    }
+}
+.photos-carousel-container{
+    #photos-carousel-main{
+        .carousel-control-next{
+            position: absolute;
+            right: 1%;
+        }
+        .carousel-control-prev{
+            position: absolute;
+            left: -3%;
+        }
+    }
+}

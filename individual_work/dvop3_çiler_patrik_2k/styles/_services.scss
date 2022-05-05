@@ -1,0 +1,140 @@
+section{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+}
+.h1-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    .h1-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        border-radius: 25px;
+        padding: .5% 5%;
+        background-color: $main-green;
+        h1{
+            position: relative;
+            bottom: 1px;
+            font-size: $title-text;
+            color: $white;
+            font-family: 'Patrick Hand SC', cursive;
+        }
+    }
+}
+.all-services-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    background-color: $bg-grey;
+    padding: 2% 3%;
+    border-radius: 25px;
+}
+.service-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 26.5%;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: $light-green;
+    .service-image-box{
+        background-color: $photo-bg;
+        padding: 3% 0%;
+        margin-bottom: 9%
+    }
+    .service-info-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 6% 7%;
+        border-radius: 15px;
+        background-color: $main-blue;
+        .service-title-box{
+            h2{
+                text-align: center;
+                font-size: $service-title;
+                color: $white;
+                font-family: 'Patrick Hand SC', cursive;
+            }
+            margin-bottom: 8%;
+        }
+        .service-text-box{
+            p{
+                font-size: $normal-text;
+                color: $white;
+            }
+            margin-bottom: 10%;
+        }
+        .buy-box-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            width: 90%;
+            .buy-box{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 2% 5%;
+                border-radius: 6px;
+                width: 60%;
+                background-color: $white;
+                p{
+                    font-size: $cta-button-text;
+                    font-family: 'Patrick Hand SC', cursive;
+                }
+            }
+        }
+    }
+}
+.service-box:first-child{
+    margin-left: 4%;
+}
+.service-box:last-child{
+    margin-right: 4%;
+}
+
+.courses-carousel-container{
+    display:none;
+}
+.photos-carousel-container{
+    display:none;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 12%;
+    .h1-box-container{
+        justify-content: flex-end;
+    }
+}

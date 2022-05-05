@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1024px){
+    body{
+        display: block;
+        section{
+            width: 100%;
+        }
+    }
+    .h1-box-container{
+        .h1-box{
+            width: 70%;
+            padding: 4% 10%;
+            margin: 6% 5%;
+            h1{
+                font-size: $title-text-mobile;
+            }
+        }
+    }
+    .all-services-box{
+        width: 92%;
+        .service-box{
+            display: none;
+        }
+    }
+    .courses{
+        .all-services-box{
+            border-radius: 0px 25px 25px 0px;
+            .service-box-container-bootstrap{
+                margin-left: 4%;
+            }
+        }
+    }
+    .photos{
+        .all-services-box:last-child{
+            border-radius: 25px 0px 0px 25px;
+            .service-box-container-bootstrap{
+                margin-right: 4%;
+            }
+        }
+    }
+
+
+    .courses-carousel-container{
+        display: block;
+    }
+    .photos-carousel-container{
+        display: block; 
+    }
+    .service-box-container-bootstrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .service-box-bootstrap{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 95%;
+            padding: 7%;
+            border-radius: 15px;
+            background-color: $light-green;
+            .service-image-box{
+                background-color: $photo-bg;
+                padding: 3% 0%;
+                margin-bottom: 11%
+            }
+            .service-info-box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                padding: 6% 7%;
+                border-radius: 15px;
+                background-color: $main-blue;
+                .service-title-box{
+                    h2{
+                        text-align: center;
+                        font-size: $service-title-mobile;
+                        line-height: 35px;
+                        color: $white;
+                        font-family: 'Patrick Hand SC', cursive;
+                    }
+                    margin-bottom: 8%;
+                }
+                .service-text-box{
+                    p{
+                        font-size: $normal-text-mobile;
+                        color: $white;
+                    }
+                    margin-bottom: 10%;
+                }
+                .buy-box-container{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    width: 90%;
+                    .buy-box{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 2% 5%;
+                        border-radius: 6px;
+                        width: 75%;
+                        background-color: $white;
+                        p{
+                            font-size: $cta-button-text-mobile;
+                            font-family: 'Patrick Hand SC', cursive;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .service-box-bootstrap:first-child{
+        margin-left: 4%;
+    }
+    .service-box-bootstrap:last-child{
+        margin-right: 4%;
+    }
+}

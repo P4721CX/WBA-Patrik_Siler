@@ -1,0 +1,40 @@
+/* COLOURS */
+
+$white: #ffffff;
+$black: #070807;
+$footer-grey: #F2F2F2;
+$bg-grey: #f3f5f2;
+$photo-bg: #c7d5c8;
+
+$main-green: #2C876F;
+$light-green: #B8E6D9;
+$dark-green: #065C46;
+$nav-green: #2C8065;
+
+$main-blue: #74A0D2;
+$dark-blue: #294365;
+
+/* FONT SIZES */
+$normal-text: 1.5rem;
+$title-text: 2.5rem;
+$cta-button-text: 2rem;
+$service-title: 2.2rem;
+$header-text: 1.8rem;
+$footer-text: 1.3rem;
+
+$normal-text-mobile: 1.2rem;
+$title-text-mobile: 2rem;
+$cta-button-text-mobile: 1.5rem;
+$service-title-mobile: 1.7rem;
+$footer-text-mobile: 1rem;
+
+/* FONTS */
+
+/* raleway (font-family: 'Raleway', sans-serif;) */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+/* patrick hand (font-family: 'Patrick Hand', cursive;) */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/* patrick hand sc (font-family: 'Patrick Hand SC', cursive;) */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+p{font-family: 'Raleway', sans-serif;}
